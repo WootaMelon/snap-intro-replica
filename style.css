@@ -321,6 +321,10 @@ ul {
     grid-row: 3;
     grid-column: 1;
   }
+  .images-div img {
+    width: 80px;
+    height: auto;
+  }
   .text-container {
     grid-row: 2;
     text-align: center;
@@ -352,6 +356,6 @@ ul {
     display: block;
   }
   .mobile-menu a {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
