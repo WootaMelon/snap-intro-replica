@@ -351,4 +351,7 @@ ul {
   .mobile-menu {
     display: block;
   }
+  .mobile-menu a {
+    font-size: 12px;
+  }
 }
