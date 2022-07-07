@@ -316,13 +316,13 @@ ul {
 
   .images-div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     grid-row: 3;
     grid-column: 1;
   }
   .images-div img {
-    width: 80px;
+    width: 65px;
     height: auto;
   }
   .text-container {
@@ -343,6 +343,7 @@ ul {
   .text-container .body-text {
     color: var(--color-mediumgray);
     line-height: 1.5;
+    font-size: 14px;
     text-align: center;
   }
   #desktop-image {
