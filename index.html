@@ -1,1 +1,133 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png">
+    <title>Snap</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html">
+                    <img src="/images/logo.svg" alt="snap">
+                </a>
+            </div>
+
+            <ul class="navbar-ul-left">
+
+                <li><a href="#" id="features-down-arrow-link">Features<img src="/images/icon-arrow-down.svg" alt=""
+                            class="down-arrow"></a>
+                    <div class="dropdown dropdown-features ">
+
+                        <ul>
+                            <li><a href="#"><img src="/images/icon-todo.svg">Todo List</a></li>
+                            <li><a href="#"><img src="/images/icon-calendar.svg">Calendar</a></li>
+                            <li><a href="#"><img src="/images/icon-reminders.svg">Reminders</a></li>
+                            <li><a href="#"><img src="/images/icon-planning.svg">Planning</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#" id="company-down-arrow-link">Company<img src="/images/icon-arrow-down.svg" alt=""
+                            class="down-arrow"></a>
+                    <div class="dropdown dropdown-company ">
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About</a></li>
+
+            </ul>
+
+            <ul class="navbar-ul-right">
+                <li> <a href="#">Login</a></li>
+                <li><button class="btn border-btn"><span>Register</span></button></li>
+            </ul>
+            <button type="button" class="hamburger" id="menu-btn">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+    </nav>
+    <div class="mobile-menu hidden" id="menu">
+        <!-- Add hidden tag to mobile menu div to hide it  -->
+        <div class="mobile-menu-top">
+            <ul>
+                <li><a href="#" id="mobile-features-down-arrow-link">Features<img src="/images/icon-arrow-down.svg"
+                            alt="" class="down-arrow"></a>
+                    <div class="dropdown-features mobile-ul">
+
+                        <ul>
+                            <li><a href="#"><img src="/images/icon-todo.svg">Todo List</a></li>
+                            <li><a href="#"><img src="/images/icon-calendar.svg">Calendar</a></li>
+                            <li><a href="#"><img src="/images/icon-reminders.svg">Reminders</a></li>
+                            <li><a href="#"><img src="/images/icon-planning.svg">Planning</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#" id="mobile-company-down-arrow-link">Company<img src="/images/icon-arrow-down.svg" alt=""
+                            class="down-arrow"></a>
+                    <div class="dropdown-company mobile-ul">
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+
+        </div>
+        <div class="mobile-menu-bottom">
+            <a href="#">Login</a>
+            <button class="btn border-btn"><span>Register</span></button></li>
+
+        </div>
+    </div>
+
+
+    <div class="grid-container">
+
+        <div class="text-container">
+            <h1 class="bold-text">Make <span>Remote Work</span></h1>
+            <p class="body-text">Get your team in sync, no matter your location.
+                Streamline processes, create team rituals, and
+                watch productivity soar.</p>
+            <button class="btn dark-outline-btn">Learn more</button>
+        </div>
+
+
+        <div class="image-container">
+            <img id="desktop-image" src="/images/image-hero-desktop.png" alt="remote-work-image">
+
+            <img id="mobile-image" src="/images/image-hero-mobile.png" alt="remote-work-image">
+        </div>
+
+        <div class="images-div">
+            <img src="/images/client-databiz.svg" alt="databiz">
+            <img src="/images/client-audiophile.svg" alt="audiophile">
+            <img src="/images/client-meet.svg" alt="meet">
+            <img src="/images/client-maker.svg" alt="maker">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
