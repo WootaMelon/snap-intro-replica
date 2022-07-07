@@ -142,14 +142,9 @@ ul {
 
 .images-div {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   grid-row: 2/3;
-  margin-left: 50px;
-}
-
-.images-div img {
-  padding-left: 25px;
 }
 
 .image-container {
@@ -318,13 +313,13 @@ ul {
     grid-row: 1;
     grid-column: 1;
   }
+
   .images-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     grid-row: 3;
     grid-column: 1;
-    margin: 0 20px;
   }
   .text-container {
     grid-row: 2;
